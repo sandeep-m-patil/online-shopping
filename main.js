@@ -3,7 +3,11 @@ console.log("hello world!")
 let container=document.querySelector('.container');
 
 let products=[
-   
+    {
+        'img':'https://m.media-amazon.com/images/I/71657TiFeHL._AC_UY327_FMwebp_QL65_.jpg',
+        'title':"Apple iPhone 15 (128 GB) - Black",
+        'price':70900
+    },
     {
         'img':'https://m.media-amazon.com/images/I/511jgZKz8UL._SR240,220_.jpg',
         'title':"Dyazo Laptop bag - Grey",
