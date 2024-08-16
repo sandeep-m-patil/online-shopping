@@ -75,7 +75,7 @@ margin: 0px 0px 0px 8px !important;
 
 
 nav{
-    margin:5px;
+   
     display: flex;
     font-size: larger;
     background-color: rgb(16, 21, 78);
@@ -172,6 +172,6 @@ footer{
     padding: 12px;
     background-color: rgb(16, 21, 78);
     color: white;
-    margin:5px;
+   
 
 }
