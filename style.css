@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
 body{
     margin: 0px;
 padding: 0px;
@@ -23,28 +24,21 @@ nav{
 }
 
 .menu ul{
-    flex-direction: column;
-   margin: 12px 0px !important;
-    padding: 0px 0px 0px 21px !important;
-    width: 90vw !important;
+    flex-direction: row !important;
+  text-align: center;
+  justify-content: space-around !important;
 }
 
 
 
 .menu  ul  li{
   
-padding:0px;
-
+padding:2px !important; 
+margin: 12px !important;
 
 
 }
 
-
-.menu  ul  li{
-    padding:12px 0px 12px 4px !important;
-margin: 0px 0px 0px 8px !important;
-
-}
 
 
 
@@ -57,25 +51,7 @@ margin: 0px 0px 0px 8px !important;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 nav{
-    margin:5px;
     display: flex;
     font-size: larger;
     background-color: rgb(16, 21, 78);
@@ -172,6 +148,5 @@ footer{
     padding: 12px;
     background-color: rgb(16, 21, 78);
     color: white;
-    margin:5px;
 
 }
