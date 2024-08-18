@@ -14,34 +14,32 @@ padding: 0px;
 @media only screen and (max-width: 600px) {
 
 nav{
-    flex-direction: column;
+    flex-direction: column ;
+    font-size: large !important;
 }
 .head{
     width: 100vw !important;
 }
-.menu{
-   
-}
+
 
 .menu ul{
     flex-direction: row !important;
   text-align: center;
+  width: 100vw;
   justify-content: space-around !important;
+  margin: 0px !important;
+  padding:3px 0px 14px 0px !important;
 }
 
 
 
 .menu  ul  li{
-  
-padding:2px !important; 
-margin: 12px !important;
+
+    padding: 2px !important;
+    margin: 9px !important;
 
 
 }
-
-
-
-
 .container .item{
     
     width: 86% !important;
@@ -50,6 +48,7 @@ margin: 12px !important;
 
 
 }
+
 
 nav{
     display: flex;
